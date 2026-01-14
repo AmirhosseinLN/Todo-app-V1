@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Engine</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1 class="title">Todo Engine</h1>
+
+      <section class="panel">
+        <label class="label" for="todoInput">New task</label>
+        <div class="row">
+          <input id="todoInput" class="input" type="text" placeholder="Type a task..." />
+          <button id="addBtn" class="btn" type="button">Add</button>
+        </div>
+
+        <p id="message" class="message"></p>
+      </section>
+
+      <section class="panel">
+        <h2 class="subtitle">Tasks</h2>
+        <ul id="todoList" class="list"></ul>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
